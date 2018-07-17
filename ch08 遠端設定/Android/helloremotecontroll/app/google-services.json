@@ -1,0 +1,368 @@
+{
+  "project_info": {
+    "project_number": "1067827977418",
+    "firebase_url": "https://hellofirebase-e569a.firebaseio.com",
+    "project_id": "hellofirebase-e569a",
+    "storage_bucket": "hellofirebase-e569a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067827977418:android:7c4684798631ea3d",
+        "android_client_info": {
+          "package_name": "android.idv.sjw.helloana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067827977418-dvikg1h5tc9drrrisghmbkpo5ikg54dn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.idv.sjw.helloana",
+            "certificate_hash": "3a4437d299b4a7b0c48d61424a085da685181692"
+          }
+        },
+        {
+          "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjs4J5R-sskelKuVXZ6e9ZI-24uadCPCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067827977418-n0kshd2k7298emlglg1che6hjejngosd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "idv.sjw.helloemailauth"
+              }
+            },
+            {
+              "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067827977418:android:747eeb484339c531",
+        "android_client_info": {
+          "package_name": "android.idv.sjw.helloemailauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067827977418-f5sluf34femggl7okjen8ootv72eelkn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.idv.sjw.helloemailauth",
+            "certificate_hash": "3a4437d299b4a7b0c48d61424a085da685181692"
+          }
+        },
+        {
+          "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjs4J5R-sskelKuVXZ6e9ZI-24uadCPCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067827977418-n0kshd2k7298emlglg1che6hjejngosd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "idv.sjw.helloemailauth"
+              }
+            },
+            {
+              "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067827977418:android:31c981844f3ae4c1",
+        "android_client_info": {
+          "package_name": "android.idv.sjw.hellophonenumbersignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067827977418-mdolj39r4c5s9n2u9b1t6m5nhs8on9gj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.idv.sjw.hellophonenumbersignin",
+            "certificate_hash": "3a4437d299b4a7b0c48d61424a085da685181692"
+          }
+        },
+        {
+          "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjs4J5R-sskelKuVXZ6e9ZI-24uadCPCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067827977418-n0kshd2k7298emlglg1che6hjejngosd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "idv.sjw.helloemailauth"
+              }
+            },
+            {
+              "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067827977418:android:d2f7fd7c3f1f7b52",
+        "android_client_info": {
+          "package_name": "android.idv.sjw.helloremotecontroll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067827977418-2p875to4601dgsec5fqpkgulhcfngpg0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.idv.sjw.helloremotecontroll",
+            "certificate_hash": "3a4437d299b4a7b0c48d61424a085da685181692"
+          }
+        },
+        {
+          "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjs4J5R-sskelKuVXZ6e9ZI-24uadCPCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067827977418-n0kshd2k7298emlglg1che6hjejngosd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "idv.sjw.helloemailauth"
+              }
+            },
+            {
+              "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067827977418:android:953cd57e1cbcb57f",
+        "android_client_info": {
+          "package_name": "android.idv.sjw.hellostorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067827977418-lshrs122dfmj3r2quje38i7hp4dcnlam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.idv.sjw.hellostorage",
+            "certificate_hash": "3a4437d299b4a7b0c48d61424a085da685181692"
+          }
+        },
+        {
+          "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjs4J5R-sskelKuVXZ6e9ZI-24uadCPCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067827977418-n0kshd2k7298emlglg1che6hjejngosd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "idv.sjw.helloemailauth"
+              }
+            },
+            {
+              "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067827977418:android:2b755bc2f3eb6d83",
+        "android_client_info": {
+          "package_name": "idv.sjw.haychata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067827977418-j31u1ld26jb9kf470b48l7bftgn9trt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "idv.sjw.haychata",
+            "certificate_hash": "3a4437d299b4a7b0c48d61424a085da685181692"
+          }
+        },
+        {
+          "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjs4J5R-sskelKuVXZ6e9ZI-24uadCPCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067827977418-n0kshd2k7298emlglg1che6hjejngosd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "idv.sjw.helloemailauth"
+              }
+            },
+            {
+              "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067827977418:android:03ce645705bd2145",
+        "android_client_info": {
+          "package_name": "idv.sjw.kotlintest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067827977418-l7e6fh7tnslkpaot4lf1u2r3cvhoh9bu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "idv.sjw.kotlintest",
+            "certificate_hash": "3a4437d299b4a7b0c48d61424a085da685181692"
+          }
+        },
+        {
+          "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjs4J5R-sskelKuVXZ6e9ZI-24uadCPCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067827977418-n0kshd2k7298emlglg1che6hjejngosd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "idv.sjw.helloemailauth"
+              }
+            },
+            {
+              "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

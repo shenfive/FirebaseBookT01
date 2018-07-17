@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1067827977418",
+    "firebase_url": "https://hellofirebase-e569a.firebaseio.com",
+    "project_id": "hellofirebase-e569a",
+    "storage_bucket": "hellofirebase-e569a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067827977418:android:2b755bc2f3eb6d83",
+        "android_client_info": {
+          "package_name": "idv.sjw.haychata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067827977418-j31u1ld26jb9kf470b48l7bftgn9trt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "idv.sjw.haychata",
+            "certificate_hash": "3a4437d299b4a7b0c48d61424a085da685181692"
+          }
+        },
+        {
+          "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlF43xV3MXAZP1ebOmWO4sH9FHUpcamKc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067827977418-kcu5p65jiv0vk3haaaml8c0toijdruaa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1067827977418-beqj8fakl0r39esrdo13517o6md99vf7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "idv.sjw.heychat"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

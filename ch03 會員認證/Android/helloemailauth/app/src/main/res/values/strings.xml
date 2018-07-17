@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">helloemailauth</string>
+    <string name="title_activity_create_account">CreateAccountActivity</string>
+</resources>

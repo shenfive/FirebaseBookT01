@@ -1,0 +1,6 @@
+framework module Pods_hellostorage {
+  umbrella header "Pods-hellostorage-umbrella.h"
+
+  export *
+  module * { export * }
+}

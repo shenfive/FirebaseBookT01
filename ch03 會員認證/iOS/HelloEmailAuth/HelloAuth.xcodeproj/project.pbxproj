@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CE6F788244E56694BB401F /* Pods_HelloAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60989503F703F6438625A50 /* Pods_HelloAuth.framework */; };
+		BA4BE8B8205C1BF40005AF20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA4BE8B7205C1BF40005AF20 /* GoogleService-Info.plist */; };
+		BA4BE8BA205C1E4F0005AF20 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BE8B9205C1E4F0005AF20 /* CreateAccountViewController.swift */; };
+		BAD2CF392052846E00E81023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2CF382052846E00E81023 /* AppDelegate.swift */; };
+		BAD2CF3B2052846E00E81023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2CF3A2052846E00E81023 /* ViewController.swift */; };
+		BAD2CF3E2052846E00E81023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD2CF3C2052846E00E81023 /* Main.storyboard */; };
+		BAD2CF402052846E00E81023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD2CF3F2052846E00E81023 /* Assets.xcassets */; };
+		BAD2CF432052846E00E81023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD2CF412052846E00E81023 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		327ACF84BD6AE34DE72A119D /* Pods-HelloAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloAuth.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloAuth/Pods-HelloAuth.release.xcconfig"; sourceTree = "<group>"; };
+		B4EF6F98FB0568B69CD871BA /* Pods-HelloAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloAuth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloAuth/Pods-HelloAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		B60989503F703F6438625A50 /* Pods_HelloAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4BE8B7205C1BF40005AF20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA4BE8B9205C1E4F0005AF20 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		BAD2CF352052846E00E81023 /* HelloAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD2CF382052846E00E81023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAD2CF3A2052846E00E81023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAD2CF3D2052846E00E81023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAD2CF3F2052846E00E81023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAD2CF422052846E00E81023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAD2CF442052846E00E81023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAD2CF322052846E00E81023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CE6F788244E56694BB401F /* Pods_HelloAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		299B4BA10E0804A74D0A16C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4EF6F98FB0568B69CD871BA /* Pods-HelloAuth.debug.xcconfig */,
+				327ACF84BD6AE34DE72A119D /* Pods-HelloAuth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		762828DCF0142527546D6ED4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B60989503F703F6438625A50 /* Pods_HelloAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAD2CF2C2052846E00E81023 = {
+			isa = PBXGroup;
+			children = (
+				BAD2CF372052846E00E81023 /* HelloAuth */,
+				BAD2CF362052846E00E81023 /* Products */,
+				299B4BA10E0804A74D0A16C5 /* Pods */,
+				762828DCF0142527546D6ED4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAD2CF362052846E00E81023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAD2CF352052846E00E81023 /* HelloAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAD2CF372052846E00E81023 /* HelloAuth */ = {
+			isa = PBXGroup;
+			children = (
+				BA4BE8B7205C1BF40005AF20 /* GoogleService-Info.plist */,
+				BAD2CF382052846E00E81023 /* AppDelegate.swift */,
+				BAD2CF3A2052846E00E81023 /* ViewController.swift */,
+				BAD2CF3C2052846E00E81023 /* Main.storyboard */,
+				BAD2CF3F2052846E00E81023 /* Assets.xcassets */,
+				BAD2CF412052846E00E81023 /* LaunchScreen.storyboard */,
+				BAD2CF442052846E00E81023 /* Info.plist */,
+				BA4BE8B9205C1E4F0005AF20 /* CreateAccountViewController.swift */,
+			);
+			path = HelloAuth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAD2CF342052846E00E81023 /* HelloAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD2CF472052846E00E81023 /* Build configuration list for PBXNativeTarget "HelloAuth" */;
+			buildPhases = (
+				875425AFC45BCF94B6DDC86E /* [CP] Check Pods Manifest.lock */,
+				BAD2CF312052846E00E81023 /* Sources */,
+				BAD2CF322052846E00E81023 /* Frameworks */,
+				BAD2CF332052846E00E81023 /* Resources */,
+				E75262410E506A660E90D1A6 /* [CP] Embed Pods Frameworks */,
+				683AEEBE556C87EEFBCFDF70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloAuth;
+			productName = HelloAuth;
+			productReference = BAD2CF352052846E00E81023 /* HelloAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAD2CF2D2052846E00E81023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "申潤五";
+				TargetAttributes = {
+					BAD2CF342052846E00E81023 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BAD2CF302052846E00E81023 /* Build configuration list for PBXProject "HelloAuth" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAD2CF2C2052846E00E81023;
+			productRefGroup = BAD2CF362052846E00E81023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAD2CF342052846E00E81023 /* HelloAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAD2CF332052846E00E81023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD2CF432052846E00E81023 /* LaunchScreen.storyboard in Resources */,
+				BA4BE8B8205C1BF40005AF20 /* GoogleService-Info.plist in Resources */,
+				BAD2CF402052846E00E81023 /* Assets.xcassets in Resources */,
+				BAD2CF3E2052846E00E81023 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		683AEEBE556C87EEFBCFDF70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloAuth/Pods-HelloAuth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		875425AFC45BCF94B6DDC86E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E75262410E506A660E90D1A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelloAuth/Pods-HelloAuth-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloAuth/Pods-HelloAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAD2CF312052846E00E81023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4BE8BA205C1E4F0005AF20 /* CreateAccountViewController.swift in Sources */,
+				BAD2CF3B2052846E00E81023 /* ViewController.swift in Sources */,
+				BAD2CF392052846E00E81023 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAD2CF3C2052846E00E81023 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD2CF3D2052846E00E81023 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAD2CF412052846E00E81023 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD2CF422052846E00E81023 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAD2CF452052846E00E81023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAD2CF462052846E00E81023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAD2CF482052846E00E81023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4EF6F98FB0568B69CD871BA /* Pods-HelloAuth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HelloAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAD2CF492052846E00E81023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327ACF84BD6AE34DE72A119D /* Pods-HelloAuth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HelloAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAD2CF302052846E00E81023 /* Build configuration list for PBXProject "HelloAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD2CF452052846E00E81023 /* Debug */,
+				BAD2CF462052846E00E81023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD2CF472052846E00E81023 /* Build configuration list for PBXNativeTarget "HelloAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD2CF482052846E00E81023 /* Debug */,
+				BAD2CF492052846E00E81023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAD2CF2D2052846E00E81023 /* Project object */;
+}

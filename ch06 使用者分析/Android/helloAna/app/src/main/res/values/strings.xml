@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">helloAna</string>
+    <string name="title_activity_ask_if_like_game">AskIfLikeGameActivity</string>
+    <string name="title_activity_ask_like_game">AskLikeGameActivity</string>
+</resources>

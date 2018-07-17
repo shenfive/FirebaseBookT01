@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">authdemo2FB</string>
+    <string name="facebook_app_id">1472350376209523</string>
+    <string name="fb_login_protocol_scheme">fb1472350376209523</string>
+</resources>

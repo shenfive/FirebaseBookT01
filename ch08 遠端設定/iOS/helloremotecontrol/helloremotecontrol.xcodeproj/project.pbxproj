@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA3E36B720B4864C00DA3B40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E36B620B4864C00DA3B40 /* AppDelegate.swift */; };
+		BA3E36B920B4864C00DA3B40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E36B820B4864C00DA3B40 /* ViewController.swift */; };
+		BA3E36BC20B4864C00DA3B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3E36BA20B4864C00DA3B40 /* Main.storyboard */; };
+		BA3E36BE20B4864F00DA3B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3E36BD20B4864F00DA3B40 /* Assets.xcassets */; };
+		BA3E36C120B4864F00DA3B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3E36BF20B4864F00DA3B40 /* LaunchScreen.storyboard */; };
+		BA3E36C920B486AC00DA3B40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA3E36C820B486AC00DA3B40 /* GoogleService-Info.plist */; };
+		CB5EFF6B61BD20DCC84D62B9 /* Pods_helloremotecontrol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635DC96347A4A30566051FCF /* Pods_helloremotecontrol.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		343211EA265C4BADAF831D3E /* Pods-helloremotecontrol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloremotecontrol.release.xcconfig"; path = "Pods/Target Support Files/Pods-helloremotecontrol/Pods-helloremotecontrol.release.xcconfig"; sourceTree = "<group>"; };
+		635DC96347A4A30566051FCF /* Pods_helloremotecontrol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helloremotecontrol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECAE9C853031A9BDE34E020 /* Pods-helloremotecontrol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloremotecontrol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helloremotecontrol/Pods-helloremotecontrol.debug.xcconfig"; sourceTree = "<group>"; };
+		BA3E36B320B4864C00DA3B40 /* helloremotecontrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloremotecontrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3E36B620B4864C00DA3B40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA3E36B820B4864C00DA3B40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA3E36BB20B4864C00DA3B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA3E36BD20B4864F00DA3B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA3E36C020B4864F00DA3B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA3E36C220B4864F00DA3B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3E36C820B486AC00DA3B40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3E36B020B4864C00DA3B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5EFF6B61BD20DCC84D62B9 /* Pods_helloremotecontrol.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A20A2808CA66C270AE1F1A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				635DC96347A4A30566051FCF /* Pods_helloremotecontrol.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A396E075369AB6242BC1B948 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ECAE9C853031A9BDE34E020 /* Pods-helloremotecontrol.debug.xcconfig */,
+				343211EA265C4BADAF831D3E /* Pods-helloremotecontrol.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA3E36AA20B4864B00DA3B40 = {
+			isa = PBXGroup;
+			children = (
+				BA3E36B520B4864C00DA3B40 /* helloremotecontrol */,
+				BA3E36B420B4864C00DA3B40 /* Products */,
+				A396E075369AB6242BC1B948 /* Pods */,
+				A20A2808CA66C270AE1F1A18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3E36B420B4864C00DA3B40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3E36B320B4864C00DA3B40 /* helloremotecontrol.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3E36B520B4864C00DA3B40 /* helloremotecontrol */ = {
+			isa = PBXGroup;
+			children = (
+				BA3E36B620B4864C00DA3B40 /* AppDelegate.swift */,
+				BA3E36B820B4864C00DA3B40 /* ViewController.swift */,
+				BA3E36BA20B4864C00DA3B40 /* Main.storyboard */,
+				BA3E36C820B486AC00DA3B40 /* GoogleService-Info.plist */,
+				BA3E36BD20B4864F00DA3B40 /* Assets.xcassets */,
+				BA3E36BF20B4864F00DA3B40 /* LaunchScreen.storyboard */,
+				BA3E36C220B4864F00DA3B40 /* Info.plist */,
+			);
+			path = helloremotecontrol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3E36B220B4864C00DA3B40 /* helloremotecontrol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3E36C520B4864F00DA3B40 /* Build configuration list for PBXNativeTarget "helloremotecontrol" */;
+			buildPhases = (
+				D40414E862BC4E44614A07C0 /* [CP] Check Pods Manifest.lock */,
+				BA3E36AF20B4864C00DA3B40 /* Sources */,
+				BA3E36B020B4864C00DA3B40 /* Frameworks */,
+				BA3E36B120B4864C00DA3B40 /* Resources */,
+				46A0991DB5A3A751FA7DE9B2 /* [CP] Embed Pods Frameworks */,
+				630511E1C7D6B6EF4A514CA5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloremotecontrol;
+			productName = helloremotecontrol;
+			productReference = BA3E36B320B4864C00DA3B40 /* helloremotecontrol.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3E36AB20B4864B00DA3B40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "申潤五";
+				TargetAttributes = {
+					BA3E36B220B4864C00DA3B40 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BA3E36AE20B4864B00DA3B40 /* Build configuration list for PBXProject "helloremotecontrol" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA3E36AA20B4864B00DA3B40;
+			productRefGroup = BA3E36B420B4864C00DA3B40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3E36B220B4864C00DA3B40 /* helloremotecontrol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3E36B120B4864C00DA3B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3E36C120B4864F00DA3B40 /* LaunchScreen.storyboard in Resources */,
+				BA3E36C920B486AC00DA3B40 /* GoogleService-Info.plist in Resources */,
+				BA3E36BE20B4864F00DA3B40 /* Assets.xcassets in Resources */,
+				BA3E36BC20B4864C00DA3B40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46A0991DB5A3A751FA7DE9B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-helloremotecontrol/Pods-helloremotecontrol-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloremotecontrol/Pods-helloremotecontrol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		630511E1C7D6B6EF4A514CA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloremotecontrol/Pods-helloremotecontrol-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D40414E862BC4E44614A07C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-helloremotecontrol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3E36AF20B4864C00DA3B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3E36B920B4864C00DA3B40 /* ViewController.swift in Sources */,
+				BA3E36B720B4864C00DA3B40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA3E36BA20B4864C00DA3B40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3E36BB20B4864C00DA3B40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA3E36BF20B4864F00DA3B40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3E36C020B4864F00DA3B40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA3E36C320B4864F00DA3B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA3E36C420B4864F00DA3B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA3E36C620B4864F00DA3B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECAE9C853031A9BDE34E020 /* Pods-helloremotecontrol.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSVW22JPST;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = helloremotecontrol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idv.sjw.helloremotecontrol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA3E36C720B4864F00DA3B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343211EA265C4BADAF831D3E /* Pods-helloremotecontrol.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSVW22JPST;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = helloremotecontrol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idv.sjw.helloremotecontrol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3E36AE20B4864B00DA3B40 /* Build configuration list for PBXProject "helloremotecontrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3E36C320B4864F00DA3B40 /* Debug */,
+				BA3E36C420B4864F00DA3B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3E36C520B4864F00DA3B40 /* Build configuration list for PBXNativeTarget "helloremotecontrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3E36C620B4864F00DA3B40 /* Debug */,
+				BA3E36C720B4864F00DA3B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA3E36AB20B4864B00DA3B40 /* Project object */;
+}
